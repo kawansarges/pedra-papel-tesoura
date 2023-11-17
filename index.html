@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="telaJogo">
+        <header id="tituloJogo">
+            <h2>Pedra, papel ou tesoura</h2>
+        </header>
+        <div id="areaJogo">
+            <p>Selcione uma opção:</p>
+            <div id="areaOpcoesPlayer" class="areaButtons">
+                <button id="btnPedraPlayer" value="pedra">Pedra</button>
+                <button id="btnPapelPlayer" value="papel">Papel</button>
+                <button id="btnTesouraPlayer" value="tesoura">Tesoura</button>
+            </div>
+            <div id="imgOpcoes">
+                <div id="headerInfo">
+                    <p>Você</p>
+                    <p>Máquina</p>
+                </div>
+                <div id="imgResult">
+
+                </div>
+            </div>
+            <p>Máquina</p>
+            <div id="areaOpcoesMaquina" class="areaButtons">
+                <button id="btnPedraMaquina" value="pedra" disabled>Pedra</button>
+                <button id="btnPapelMaquina" value="papel" disabled>Papel</button>
+                <button id="btnTesouraMaquina" value="tesoura" disabled>Tesoura</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
